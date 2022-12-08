@@ -8,3 +8,5 @@ In order to make my sound board, I wanted to find stems of a orchetra band playi
 I made it intentional that you cannot stop the grinch's song with the Stop all button as a funny haha thing and the only way you can stop him is by refreshing the page.
 
 Working link: https://codesandbox.io/s/rowe-dad-492-final-ueyg1x?file=/sketch.js
+
+Website link: https://hannam1401.github.io/csb-ueyg1x/
