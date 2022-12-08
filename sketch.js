@@ -140,6 +140,11 @@ function draw() {
   fill("black");
   textAlign(CENTER);
   text(int(vol.value() * 100) + "% volume", width / 5 + 400, height / 15 + 295);
+
+  textSize(30);
+  fill("red");
+  textAlign(CENTER);
+  text("Christmas Sound Board!", width / 5 + 100, height / 15 + 255);
 }
 function play1() {
   multiplayer.player("drums").start();
@@ -161,4 +166,18 @@ function play6() {
 }
 function cease() {
   multiplayer.stopAll();
+}
+function boxOne(x, y, color, title) {
+  push();
+  translate(x, y);
+
+  fill("grey");
+  rect(20, 30, 180, 180);
+  fill(color);
+  rect(20, 30, 180, 40);
+
+  fill("black");
+  text(title, 22, 50);
+  text("Pick a Stem!", 105, 88);
+  pop();
 }
