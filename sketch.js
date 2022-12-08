@@ -88,7 +88,7 @@ function draw() {
   text("Delay", width / 5 + 400, height / 15 + 40);
 
   textSize(10);
-  fill("black");
+  fill("blue");
   textAlign(CENTER);
   text(
     int(wetMix.value() * 100) + "% effected sound",
@@ -102,7 +102,7 @@ function draw() {
   volume.vol = vol.value();
 
   textSize(10);
-  fill("black");
+  fill("blue");
   textAlign(CENTER);
   text("Shift in Half Steps", width / 5 + 400, height / 15 + 115);
 
@@ -117,7 +117,7 @@ function draw() {
   text("Distortion", width / 5 + 400, height / 15 + 160);
 
   textSize(10);
-  fill("black");
+  fill("blue");
   textAlign(CENTER);
   text("Amount of Distortion", width / 5 + 400, height / 15 + 175);
 
@@ -127,7 +127,7 @@ function draw() {
   text("Reverb", width / 5 + 400, height / 15 + 220);
 
   textSize(10);
-  fill("black");
+  fill("blue");
   textAlign(CENTER);
   text("Room Size", width / 5 + 400, height / 15 + 235);
 
@@ -137,7 +137,7 @@ function draw() {
   text("Volume", width / 5 + 400, height / 15 + 280);
 
   textSize(10);
-  fill("black");
+  fill("blue");
   textAlign(CENTER);
   text(int(vol.value() * 100) + "% volume", width / 5 + 400, height / 15 + 295);
 
