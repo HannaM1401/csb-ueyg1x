@@ -167,17 +167,3 @@ function play6() {
 function cease() {
   multiplayer.stopAll();
 }
-function boxOne(x, y, color, title) {
-  push();
-  translate(x, y);
-
-  fill("grey");
-  rect(20, 30, 180, 180);
-  fill(color);
-  rect(20, 30, 180, 40);
-
-  fill("black");
-  text(title, 22, 50);
-  text("Pick a Stem!", 105, 88);
-  pop();
-}
