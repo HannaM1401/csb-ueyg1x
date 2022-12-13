@@ -27,6 +27,13 @@ const multiplayer = new Tone.Players({
   grinch: "Christmas/thegrinch.wav"
 }).connect(volume);
 
+multiplayer.player("drums")._loop = true;
+multiplayer.player("flute")._loop = true;
+multiplayer.player("piano")._loop = true;
+multiplayer.player("bells")._loop = true;
+multiplayer.player("trumpet")._loop = true;
+multiplayer.player("grinch")._loop = true;
+
 function setup() {
   createCanvas(windowWidth, windowHeight);
 
